@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  z-index: 2;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+.navbar-brand-logp {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.nav-left-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.company-name {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(7, 43, 7);
+}
+.nav-ul-bigscreen {
+  display: flex;
+  gap: 15px;
+  color: black;
+}
+.nav-li {
+  list-style: none;
+}
+.header-links {
+  color: black;
+  background-color: #ffff;
+  text-decoration: none;
+  font-size: larger;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+/* Active class */
+.active {
+  color: white;
+  background-color: red;
+}
+.header-links:hover {
+  background-color: red;
+  color: white;
+}
+.container {
+  margin: 0px 20px;
+  margin-top: 36vh;
+  text-align: center;
+}
+.container-btn {
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: black;
+}
+.para {
+  font-size: 1em;
+  font-weight: 600;
+  color: black;
+}
+.container-btn:hover {
+  background-color: red;
+  color: #ffff;
+}
+.dropdown {
+  list-style: none;
+}
+.nav-li-dropdown {
+  margin-bottom: 10px;
+  list-style: none;
+}
+@media (max-width: 700px) {
+  .nav-ul-bigscreen {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+/* hero-section  */
+.main-heading {
+  margin: 15px 0px 0px 15px;
+}
+.hero-section {
+  box-sizing: border-box;
+  background: linear-gradient(135deg, white, gray);
+}
+.first-hero-section {
+  box-sizing: border-box;
+  background-color: #eeeded;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+}
+.first-hero-section-image {
+  width: 300px;
+  object-fit: cover;
+}
+.first-hero-section-container-para {
+  margin-top: 5px;
+  font-family: "Times New Roman", Times, serif;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .first-hero-section {
+    flex-direction: column;
+  }
+  .first-hero-section-image {
+    width: 440px;
+  }
+}
+@media (min-width: 769px) {
+  .first-hero-section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+/* footer-section  */
+.footer {
+  background-color: #1a1a1a;
+  margin-top: 20px;
+  padding: 20px;
+}
+.upper-footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+.footer-image-logo {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.footer-heading {
+  color: white;
+}
+.footer-links {
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
+.social-links {
+  width: 60px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.footer-links:hover {
+  color: rgb(133, 133, 133);
+}
+.upper-footer-section-three-first,
+.upper-footer-section-five-first {
+  margin-bottom: 5px;
+}
+.bottom-footer-section-para {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
