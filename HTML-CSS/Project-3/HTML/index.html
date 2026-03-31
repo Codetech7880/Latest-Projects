@@ -1,49 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PowerPulse Fitness</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness GYM</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../Images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <div class="logo">PowerPulse</div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Classes</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <div class="company-brand-container">
+          <img
+            src="../Images/Fitness GYM logo design.png"
+            alt="logo-image"
+            class="company-logo"
+          />
+          <p class="company-brand-name">Fitness GYM</p>
+        </div>
+        <ul class="list-container">
+          <li class="list-items"><a href="#">Home</a></li>
+          <li class="list-items"><a href="#">Services</a></li>
+          <li class="list-items"><a href="#">Trainers</a></li>
+          <li class="list-items"><a href="#">Pricing</a></li>
+        </ul>
+        <button class="nav-btn">Join Now</button>
+      </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>UNLEASH YOUR STRENGTH</h1>
-            <p>Your journey to a healthier, stronger you starts here.</p>
-            <a href="#" class="btn">Join Now</a>
+    <main>
+      <section class="hero-section">
+        <div class="first-hero-section">
+          <h1 class="main-heading">Transform</h1>
+          <h1 class="main-heading">Your body today</h1>
+          <div class="hero-section-btn-container">
+            <button class="hero-section-btn">Start Today</button>
+            <button class="hero-section-btn">Join Now</button>
+          </div>
         </div>
-    </section>
+        <div class="second-hero-section">
+          <img
+            src="../Images/main-background-img.png"
+            alt="main-image"
+            class="second-hero-section-img"
+          />
+        </div>
+      </section>
 
-    <section class="services">
-        <div class="card">
-            <h3>Cardio</h3>
-            <p>Improve your endurance with high-intensity training.</p>
+      <section class="parent-card-container">
+        <h3 class="card-container-heading">Features</h3>
+        <div class="child-card-container">
+          <div class="cards">
+            <img
+              src="../Images/modern-equipments.avif"
+              alt="modern-equipments"
+              class="card-img"
+            />
+            <h4 class="card-heading">Modern Equipment</h4>
+            <p class="card-para">
+              Treadmill, elliptical, rowing machine, spin bike, Smith machine,
+              cable machine, leg press, power rack, dumbbells, kettlebells,
+              chest press, lat pulldown.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              src="../Images/trainer.avif"
+              alt="trainer-image"
+              class="card-img"
+            />
+            <h4 class="card-heading">Expert Trainers</h4>
+            <p class="card-para">
+              Expert trainers provide personalized guidance, proper technique
+              correction, motivation, injury prevention, and effective workout
+              planning.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              src="../Images/flexible-timing.avif"
+              alt="timing-image"
+              class="card-img"
+            />
+            <h4 class="card-heading">Flexible Timing</h4>
+            <p class="card-para">
+              Flexible timing allows members to work out at their convenience,
+              fitting fitness easily into any daily schedule.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              src="../Images/diet.avif"
+              alt="diet-plan-image"
+              class="card-img"
+            />
+            <h4 class="card-heading">Diet Plans</h4>
+            <p class="card-para">
+              Diet plans provide structured nutrition guidance to support
+              fitness goals, improve health, and boost overall performance.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              src="../Images/personal training.avif"
+              alt="diet-plan-image"
+              class="card-img"
+            />
+            <h4 class="card-heading">Personal Trainer</h4>
+            <p class="card-para">
+              Personalized workouts with expert guidance to achieve faster, safe, and effective fitness results.
+            </p>
+          </div>
+          <div class="cards">
+            <img
+              src="../Images/group-classes.avif"
+              alt="diet-plan-image"
+              class="card-img"
+            />
+            <h4 class="card-heading">Group Classes</h4>
+            <p class="card-para">
+              Fun, energetic group sessions like yoga and Zumba that boost motivation and consistency.
+            </p>
+          </div>
         </div>
-        <div class="card">
-            <h3>Strength</h3>
-            <p>Build muscle and increase power with expert guidance.</p>
+      </section>
+
+      <section class="program-preview-container">
+        <h1 class="program-heading">Programs</h1>
+        <div class="program-preview-cards">
+          <div class="program-preview-layout first-preview-layout">
+          <div class="inner-text">
+            <p class="inner-text-para">Weight</p>
+            <p class="inner-text-para">Loss</p>
+          </div>
         </div>
-        <div class="card">
-            <h3>Yoga</h3>
-            <p>Find your balance and improve flexibility.</p>
+        <div class="program-preview-layout second-preview-layout">
+          <div class="inner-text">
+            <p class="inner-text-para">Muscle</p>
+            <p class="inner-text-para">Gain</p>
+          </div>
         </div>
-    </section>
+        <div class="program-preview-layout third-preview-layout">
+          <div class="inner-text">
+            <p class="inner-text-para">Training</p>
+          </div>
+        </div>
+        <div class="program-preview-layout forth-preview-layout">
+          <div class="inner-text">
+            <p class="inner-text-para">Yoga</p>
+          </div>
+        </div>
+        <div class="program-preview-layout fifth-preview-layout">
+          <div class="inner-text">
+            <p class="inner-text-para">Cardio</p>
+            <p class="inner-text-para">Training</p>
+          </div>
+        </div>
+        <div class="program-preview-layout sixth-preview-layout">
+          <div class="inner-text">
+            <p class="inner-text-para">Strength</p>
+            <p class="inner-text-para">Training</p>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <div class="address-section">
+        <section class="contact-section">
+          <h2 class="contact-section-heading">Contact Us</h2>
+          <div class="address-detail-container">
+            <p class="address-details">Contact No:</p>
+            <p class="address-details address-detail-seperate-section">
+              +91 xxxxxxx9304, +91 xxxxxxx4567
+            </p>
+          </div>
+          <div class="address-detail-container">
+            <p class="address-details">Email Address:</p>
+            <p class="address-details address-detail-seperate-section">
+              fitnessGym456@gmail.com
+            </p>
+          </div>
+          <div class="address-detail-container">
+            <p class="address-details">Address:</p>
+            <p class="address-details address-detail-seperate-section">
+              Nath Nagar, Sant Kabir Nagar, Uttar Pradesh, 272176
+            </p>
+          </div>
+        </section>
+
+        <section class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7132.406245406098!2d83.0208010065343!3d26.64197815685074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399122658d3dff17%3A0xf1396522d7c84029!2sNath%20Nagar%2C%20Uttar%20Pradesh%20272176!5e0!3m2!1sen!2sin!4v1774675851004!5m2!1sen!2sin"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map-styling"
+          ></iframe>
+        </section>
+      </div>
+
+      <section class="customer-review-container">
+        <div class="review-heading-container">
+          <h1 class="review-heading">User Rating</h1>
+          <div class="star-container">
+            <i class="fa fa-star yellow"></i>
+            <i class="fa fa-star yellow"></i>
+            <i class="fa fa-star yellow"></i>
+            <i class="fa fa-star yellow"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+        <h2 class="sub-heading-review">4.1 average based on 254 reviews.</h2>
+        <hr class="review-hr">
+        <div class="review-visalization-section">
+          <p class="number-of-stars">5 Star</p>
+          <div class="stars-visualization-container">
+            <div class="percent-review"></div>
+          </div>
+          <p class="number-of-stars">150</p>
+        </div>
+        <div class="review-visalization-section">
+          <p class="number-of-stars">4 Star</p>
+          <div class="stars-visualization-container">
+            <div class="percent-review-blue"></div>
+          </div>
+          <p class="number-of-stars">63</p>
+        </div>
+        <div class="review-visalization-section">
+          <p class="number-of-stars">3 Star</p>
+          <div class="stars-visualization-container">
+            <div class="percent-review-aqua"></div>
+          </div>
+          <p class="number-of-stars">15</p>
+        </div>
+        <div class="review-visalization-section">
+          <p class="number-of-stars">2 Star</p>
+          <div class="stars-visualization-container">
+            <div class="percent-review-yellow"></div>
+          </div>
+          <p class="number-of-stars">6</p>
+        </div>
+        <div class="review-visalization-section">
+          <p class="number-of-stars">1 Star</p>
+          <div class="stars-visualization-container">
+            <div class="percent-review-red"></div>
+          </div>
+          <p class="number-of-stars">20</p>
+        </div>
+      </section>
+    </main>
 
     <footer>
-        <p>&copy; 2026 PowerPulse Fitness. All Rights Reserved.</p>
+      <div class="top-footer">
+        <img
+          src="../Images/Fitness GYM logo design.png"
+          alt="company-logo"
+          class="footer-company-logo"
+        />
+        <div class="top-footer-container">
+          <h4 class="top-footer-container-heading">About</h4>
+          <ul class="footer-ul">
+            <li><a href="#" class="footer-links">About us</a></li>
+            <li><a href="#" class="footer-links">Our Trainers</a></li>
+            <li><a href="#" class="footer-links">Careers</a></li>
+            <li><a href="#" class="footer-links">Blog</a></li>
+            <li><a href="#" class="footer-links">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="top-footer-container">
+          <h4 class="top-footer-container-heading">Programs</h4>
+          <ul class="footer-ul">
+            <li><a href="#" class="footer-links">Weight loss</a></li>
+            <li><a href="#" class="footer-links">Muscle Gain</a></li>
+            <li><a href="#" class="footer-links">Cardio Training</a></li>
+            <li><a href="#" class="footer-links">Yoga Classes</a></li>
+            <li><a href="#" class="footer-links">Personal Training</a></li>
+          </ul>
+        </div>
+        <div class="top-footer-container">
+          <h4 class="top-footer-container-heading">Support</h4>
+          <ul class="footer-ul">
+            <li><a href="#" class="footer-links">Contact us</a></li>
+            <li><a href="#" class="footer-links">FAQs</a></li>
+            <li><a href="#" class="footer-links">Membership plans</a></li>
+            <li><a href="#" class="footer-links">Privacy Policy</a></li>
+            <li><a href="#" class="footer-links">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-division" />
+      <div class="bottom-footer">
+        Fitness GYM 2026 &copy; All Rights Reserved
+      </div>
     </footer>
-</body>
+  </body>
 </html>
