@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --darkcolor : #1a1a1a;
+    --container-background: #8D99AE;
+    --increment: #ff0000;
+    --decrement: #ffff00;
+    --reset : #00ffff;
+    --textColor : #ffff;
+}
+body{
+    background-color: var(--darkcolor);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.counter-container{
+    background-color: var(--container-background);
+    padding: 30px;
+    border : none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 45vh;
+}
+.counter-heading{
+    margin-bottom: 20px;
+    color: var(--darkcolor);
+    text-shadow: 2px 2px 5px #1b1a1a;
+}
+#counterDisplay{
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+.button{
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+#incrementBtn{
+    background-color: var(--increment);
+}
+#incrementBtn:hover{
+    background-color: rgb(151, 61, 61);
+    color: var(--textColor);
+}
+#decrementBtn{
+    background-color: var(--decrement);
+}
+#decrementBtn:hover{
+    background-color: rgb(164, 164, 16);
+    color: var(--textColor);
+}
+#resetBtn{
+    background-color: var(--reset);
+}
+#resetBtn:hover{
+    background-color: rgb(8, 124, 124);
+    color: var(--textColor)
+}
